@@ -2,14 +2,13 @@
 
 ## Latihan
 
->> Implementasikan penggunaan eksepsi pada lab-lab sebelumnya untuk mengatasi error yang ditimbulkan.
+>Implementasikan penggunaan eksepsi pada lab-lab sebelumnya untuk mengatasi error yang ditimbulkan.
 
 ## Penjelasan
 
-**Eksepsi** ( exception ) 
-Merupakan suatu kesalahan (error) yang terjadi saat proses eksekusi program sedang berjalan, Kesalahan ini akan menyebabkan program berakhir dengan tidak normal.
+**Eksepsi** ( exception ) : Merupakan suatu kesalahan (error) yang terjadi saat proses eksekusi program sedang berjalan, Kesalahan ini akan menyebabkan program berakhir dengan tidak normal.
 
-**Blok Try and Except**
+**Blok Try and Except :**
 * Setiap kode program yang memungkinkan terjadinya eksepsi, maka
 perlu untuk di tempatkan di dalam blok **try** .
 * Ketika ada kesalahan, maka kode di blok **except** akan dieksekusi.
@@ -18,7 +17,7 @@ akan diabaikan.
 
 Disini saya menggunakan program pada lab sebelumnya, yaitu program daftar nilai mahasiswa. Yang terdiri dari beberapa fungsi seperti tambah data, ubah data, hapus data dan lihat data. 
 
-#### Tambah Data
+### Tambah Data
 
 * Fungsi `def tambah()` berfungsi untuk menginput variable nama, nim, nilai tugas, nilai uts dan nilai uas. 
 * Apabila data yang diinputkan salah, maka kode `except` akan dijalankan.
@@ -41,11 +40,11 @@ Disini saya menggunakan program pada lab sebelumnya, yaitu program daftar nilai 
         print("Data yang dimasukkan salah! Ulangi lagi!")
         print()
 ```
-#### Output Tambah Data
+### Output Tambah Data
 
-![img] screenshot/tambah1.png
+![Gambar 1](screenshot/tambah1.png)
 
-#### Ubah Data
+### Ubah Data
 
 * Fungsi `def ubah()` berfungsi untuk mengubah data berdasarkan nama.
 * Apabila data yang diinputkan salah, maka kode `except` akan dijalankan.
@@ -72,11 +71,11 @@ Disini saya menggunakan program pada lab sebelumnya, yaitu program daftar nilai 
             print("Data harus berupa angka!")
             print()
 ```
-#### Output Ubah Data
+### Output Ubah Data
 
-![img] screenshot/ubah1.png
+![Gambar 2](screenshot/ubah1.png)
 
-#### Hapus Data
+### Hapus Data
 
 * Fungsi `def hapus()` berfungsi untuk menghapus data berdasarkan nama, jika data tidak ada maka akan menjalankan fungsi `no_data()`. 
 
@@ -92,11 +91,11 @@ Disini saya menggunakan program pada lab sebelumnya, yaitu program daftar nilai 
             del data[nama]
             print()
 ```
-#### Output Hapus Data
+### Output Hapus Data
 
-![img] screenshot/hapus1.png
+![Gambar 3](screenshot/hapus1.png)
 
-#### Lihat Data
+### Lihat Data
 
 * Fungsi `def lihat()` berfungsi untuk melihat data, jika data tidak ada maka fungsi `no_data()` akan dijalankan.
 
@@ -115,11 +114,11 @@ Disini saya menggunakan program pada lab sebelumnya, yaitu program daftar nilai 
             print(72*"=")
         print()
 ```
-#### Output Lihat Data
+### Output Lihat Data
 
-![img] screenshot/lihat1.png
+![Gambar 4](screenshot/lihat1.png)
 
-#### Menu
+### Menu
 
 * Menggunakan perulangan while dengan nilai true dan menggunakan statement try dan except.
 
@@ -156,6 +155,8 @@ Disini saya menggunakan program pada lab sebelumnya, yaitu program daftar nilai 
             print("Tidak ada menu! Ulangi lagi!")
             print()
 ```
-#### Output Menu
+### Output Menu
 
-![img] screenshot/menu1.png
+![Gambar 5](screenshot/menu1.png)
+
+## Sekian Terimakasih
